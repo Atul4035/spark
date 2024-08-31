@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    /* height: 100vh; */
+    display:grid;
+    grid-template-columns:  100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px 30px;
+}
+#header{
+    width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
